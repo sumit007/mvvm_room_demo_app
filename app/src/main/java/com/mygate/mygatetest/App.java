@@ -12,6 +12,6 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Userdatabase.getInstance(this); //This will provide AppDatabase Instance
+        UserDatabase.getInstance(this);
     }
 }

@@ -3,7 +3,6 @@ package com.mygate.mygatetest;
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.ViewModel;
 import android.support.annotation.NonNull;
 
 import java.util.List;
@@ -22,7 +21,7 @@ public class UserViewModel extends AndroidViewModel {
 
     public UserViewModel(@NonNull Application application) {
         super(application);
-        userDao = Userdatabase.getInstance(application).getuserDao();
+        userDao = UserDatabase.getInstance(application).getuserDao();
         executorService = Executors.newSingleThreadExecutor();
     }
 

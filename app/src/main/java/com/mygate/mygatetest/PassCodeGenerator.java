@@ -9,10 +9,7 @@ import java.util.Random;
 
 public class PassCodeGenerator {
 
-    //private static final String Capital_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    //private static final String Small_chars = "abcdefghijklmnopqrstuvwxyz";
     private static final String numbers = "0123456789";
-    //private static final String symbols = "!@#$%^&*_=+-/.?<>)";
 
     public static String generatePasscode() {
 

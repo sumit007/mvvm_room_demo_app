@@ -18,9 +18,9 @@ public class PassCodeGenerator {
         // Using random method
         Random random = new Random();
 
-        char[] password = new char[6];
+        char[] password = new char[1];
 
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < 1; i++)
         {
             password[i] = values.charAt(random.nextInt(values.length()));
 
